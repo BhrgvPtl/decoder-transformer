@@ -1,6 +1,6 @@
 
 ## `src/decoder_transformer/model.py`
-```python
+
 import math
 from typing import Optional
 import torch
