@@ -1,6 +1,12 @@
-import re, torch
+import re
+import torch
 from torch.utils.data import Dataset, DataLoader
 from src.decoder_transformer.model import DecoderOnlyTransformer
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
 
 # Tiny corpus
 CORPUS = [
