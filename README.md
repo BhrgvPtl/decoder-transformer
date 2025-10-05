@@ -82,10 +82,12 @@ python scripts/train.py
 Sample output:
 ```
 Device: cpu
-iter   50 | train loss 0.0037
-iter  100 | train loss 0.0006
-iter  150 | train loss 0.0002
-iter  200 | train loss 0.0001
+iter   50 | train loss 0.0373
+iter  100 | train loss 0.0330
+iter  150 | train loss 0.0315
+iter  200 | train loss 0.0309
+iter  250 | train loss 0.0310
+iter  300 | train loss 0.0312
 Saved: checkpoints/model.pt
 ```
 
